@@ -1,0 +1,162 @@
+
+body{
+    text-align: center;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+   
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: grey;
+}
+.container-fluid {
+    padding: 6% 15%;
+}
+.coloured{
+    background-color:#ff4c68;
+    color: #fff;
+}
+.light-coloured{
+    background-color:#ef8172; 
+    color: #fff;
+}
+.white{
+    background-color: #fff;
+    color: black;
+}
+.text{
+    font-family: 'Montserrat', sans-serif; 
+   
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+
+/* navbar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.a.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Ligth';
+}
+
+
+.btn{
+    margin: 5% 3% 5% 0;
+  }
+
+  /* phone-image */
+  .dog-image{
+      width: 24%;
+      transform: rotate(25deg);
+      right: 19%;
+      position: absolute;
+  }
+  @media (max-width:986px) {
+      .dog-image{
+        transform: rotate(0);
+        position: static;
+        width: 58%;
+      }
+  }
+  
+
+
+  /* title */
+
+#features{
+      position: relative;
+      z-index:1;
+}
+.features-boxes{
+    padding: 7%;
+}
+@media (max-width:986px) {
+.center{
+    text-align: center;
+}
+}
+@media (max-width:986px) {
+    .center-dog{
+        text-align: center;
+    }
+    }
+
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 0.8em;
+}
+.icon:hover
+{
+  color: #ff4c68; 
+}
+
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    /* background-color:#ef8172;  */
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing */
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.cta-heading{
+    font-size: 2.5rem;
+    width: 68%;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #fff;
+    
+}
+.download{
+    font-size: 1.5rem;
+}
+.fa-brands{
+    padding-right: 6px;
+}
+.social-icon
+{
+    padding: 20px 10px;
+}
